@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Delete a comment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a80fa0b7-cd86-48dd-9d0f-5fea0dc557fe</testCaseGuid>
+</TestCaseEntity>
