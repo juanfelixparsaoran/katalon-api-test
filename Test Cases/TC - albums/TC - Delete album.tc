@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Delete album</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d81b7bd8-3e2c-40e6-8511-04e7551ea229</testCaseGuid>
+</TestCaseEntity>
