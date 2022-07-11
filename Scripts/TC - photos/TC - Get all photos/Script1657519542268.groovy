@@ -16,23 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 import groovy.json.JsonSlurper as JsonSlurper
 
-response1 = WS.sendRequest(findTestObject('comments/Get all comments'))
+response1 = WS.sendRequest(findTestObject('photos/Get all photos'))
 
 def slurper = new JsonSlurper()
 
 def result = slurper.parseText(response1.getResponseBodyContent())
 
 for (int i = 0; i < 50; i++) {
-    WS.verifyElementPropertyValue(response1, ('[' + i) + '].postId', result[i].postId)
+	WS.verifyElementPropertyValue(response1, ('[' + i) + '].albumId', result[i].albumId)
 
-    WS.verifyElementPropertyValue(response1, ('[' + i) + '].id', result[i].id)
+	WS.verifyElementPropertyValue(response1, ('[' + i) + '].id', result[i].id)
 
-    WS.verifyElementPropertyValue(response1, ('[' + i) + '].name', result[i].name)
+	WS.verifyElementPropertyValue(response1, ('[' + i) + '].title', result[i].title)
 
-    WS.verifyElementPropertyValue(response1, ('[' + i) + '].email', result[i].email)
+	WS.verifyElementPropertyValue(response1, ('[' + i) + '].url', result[i].url)
 
-    WS.verifyElementPropertyValue(response1, ('[' + i) + '].body', result[i].body)
+	WS.verifyElementPropertyValue(response1, ('[' + i) + '].thumbnailUrl', result[i].thumbnailUrl)
 }
-
