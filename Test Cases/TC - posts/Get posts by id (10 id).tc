@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get posts by id (10 id)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed1707bd-55a9-4785-9116-40a55e138647</testCaseGuid>
+</TestCaseEntity>
