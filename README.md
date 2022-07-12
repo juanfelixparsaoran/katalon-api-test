@@ -1,4 +1,10 @@
+Nama : Juan Felix Parsaoran Tarigan <br>
+Kode Peserta : KSAT006ONL017
+
 # katalon-api-test
+
+## Preview
+This repo is a katalon project for testing http://jsonplaceholder.typicode.com/. There are 6 endpoints and this project will test method GET,POST, and DELETE from each endpoints
 
 ## Test Scenario
 ### /posts
